@@ -25,6 +25,16 @@ precacheAndRoute(self.__WB_MANIFEST);
 // are fulfilled with your index.html shell. Learn more at
 // https://developers.google.com/web/fundamentals/architecture/app-shell
 const fileExtensionRegexp = new RegExp("/[^/?]+\\.[^/]+$");
+
+// 1. 2024.html 라우팅
+registerRoute(({ url, request }) => {
+  if (request.mode === "navigate" && url.pathname === "/2024") {
+    return true;
+  }
+  return false;
+}, createHandlerBoundToURL(process.env.PUBLIC_URL + "/2024.html"));
+
+// 2. 2025.html 라우팅
 registerRoute(
   // Return false to exempt requests from being fulfilled by index.html.
   ({ request, url }) => {
