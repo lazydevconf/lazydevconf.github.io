@@ -1,13 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.63ffa884.css",
-    "main.js": "/static/js/main.5536f455.js",
+    "main.js": "/static/js/main.b62eb4c4.js",
     "static/media/banner-background.png": "/static/media/banner-background.3fda68c50f57504e5b18.png",
     "static/media/time-table.jpg": "/static/media/time-table.4df333d13d40628a6e97.jpg",
     "static/media/main-banner.jpg": "/static/media/main-banner.9004a045ff3a9c9af8c0.jpg",
     "static/media/foo.png": "/static/media/foo.6527f244a763a3b2f0ed.png",
     "static/media/main-banner-min.jpg": "/static/media/main-banner-min.a94875d4a10fd8ab3d6a.jpg",
-    "service-worker.js": "/service-worker.js",
     "static/media/time-table-header.jpg": "/static/media/time-table-header.008096823be110580daa.jpg",
     "static/media/hanbit.png": "/static/media/hanbit.7bdb739337afb3eb5838.png",
     "static/media/path-finder.png": "/static/media/path-finder.a10b5b42561abf6da72b.png",
@@ -18,10 +17,10 @@
     "index.html": "/index.html",
     "static/media/conference-time.svg": "/static/media/conference-time.73b5ccbdcb251169f72b4f2ac58cf419.svg",
     "main.63ffa884.css.map": "/static/css/main.63ffa884.css.map",
-    "main.5536f455.js.map": "/static/js/main.5536f455.js.map"
+    "main.b62eb4c4.js.map": "/static/js/main.b62eb4c4.js.map"
   },
   "entrypoints": [
     "static/css/main.63ffa884.css",
-    "static/js/main.5536f455.js"
+    "static/js/main.b62eb4c4.js"
   ]
 }
